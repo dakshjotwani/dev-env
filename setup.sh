@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USAGE = "Usage: $0 <mac/ubuntu>"
+USAGE="Usage: $0 <mac/ubuntu>"
 
 if [ $# -ne 1 ]; then
     echo $USAGE
