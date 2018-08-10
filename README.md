@@ -20,6 +20,6 @@ cd ../
 To install vim plugin from git:
 ```
 cd utils
-./vim_plugin_install.sh
+./vim_plugin_install.sh <git-repo> <plugin-name>
 cd ../
 ```
