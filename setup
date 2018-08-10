@@ -23,3 +23,5 @@ done
 
 cd ../dotfiles
 bash apply.sh
+
+echo "Exiting."
