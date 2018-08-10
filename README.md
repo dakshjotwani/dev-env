@@ -8,3 +8,18 @@ Some helper scripts to get my setup up and running in no time.
 ./setup mac    # for mac
 ./setup ubuntu # for ubuntu
 ```
+
+#### Helpers
+To update dotfiles on system:
+```
+cd dotfiles
+./apply.sh
+cd ../
+```
+
+To install vim plugin from git:
+```
+cd utils
+./vim_plugin_install.sh
+cd ../
+```
