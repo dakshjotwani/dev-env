@@ -22,6 +22,9 @@ set expandtab
 " Allows mouse to be used for certain actions
 set mouse=a
 
+"Allow backspace
+set backspace=indent,eol,start
+
 " Colourscheme preferences
 colorscheme molokai
 highlight LineNr ctermfg=Grey

@@ -5,8 +5,8 @@ if [ $# -ne 2 ]; then
     exit 1
 fi
 
-if [ "`cat ../resources/vim_plugins.txt | grep $2`" != "" ]; then
-    echo "Plugin may already be installed. Exiting."
+if [ "`ls ~/.vim/bundle | grep $2`" != "" ]; then
+    echo "Plugin may already be installed. Not installing."
     exit 1
 fi
 

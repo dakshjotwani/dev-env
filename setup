@@ -24,4 +24,20 @@ done
 cd ../dotfiles
 bash apply.sh
 
+cd ../
+
+# Add any additional logic here if required
+
+# To install vim plugins
+echo "Do you want to install vim plugins listed in resources/vim_plugins.txt? (y/any_other_key)"
+read response
+if [ "$response" == "y" ]; then
+    echo "installing plugins"
+    cd utils/
+    bash vpi_from_file.sh
+    cd ../
+else
+    echo "received other. skipping plugin install"
+fi
+
 echo "Exiting."
