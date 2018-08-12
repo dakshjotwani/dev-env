@@ -17,5 +17,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-echo "Adding installation entry to vim_plugins.txt"
-echo "$2 $1" >> ../resources/vim_plugins.txt
+if [ "`cat ../resources/vim_plugins.txt | grep "$2 $1"`" == "" ]; then
+    echo "Adding installation entry to vim_plugins.txt"
+    echo "$2 $1" >> ../resources/vim_plugins.txt
+fi
