@@ -7,6 +7,7 @@ Some helper scripts to get my setup up and running in no time.
 ```
 ./setup mac    # for mac
 ./setup ubuntu # for ubuntu
+./setup purdue # for purdue cs linux machines
 ```
 
 #### Helpers
