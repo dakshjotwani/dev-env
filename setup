@@ -11,6 +11,8 @@ if [ "$1" == "mac" ]; then
     bash package_installers/install_mac.sh
 elif [ "$1" == "ubuntu" ]; then
     bash package_installers/install_ubuntu.sh
+elif [ "$1" == "purdue" ]; then
+    bash package_installers/install_purdue.sh
 else
     echo $USAGE
     exit 1
