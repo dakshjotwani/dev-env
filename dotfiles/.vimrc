@@ -18,6 +18,7 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
 " Allows mouse to be used for certain actions
 set mouse=a
